@@ -1,53 +1,56 @@
-.circle-gbl{
+.circle-gbl {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 435px;
+    padding: 0 50px;
     margin-top: 25px;
 }
-.circle{
+
+.circle {
     position: relative;
     width: 170px;
     height: 170px;
     margin-top: 15px;
-    background-color:  rgb(201, 201, 21);
+    background-color: rgb(201, 201, 21);
     border-radius: 200px;
-    animation: rotate 10s ease-in-out ;
-}   
+    animation: rotate 10s ease-in-out;
+}
 
-@keyframes rotate{
-    0%{
-       transform: translateY(200px);
-       opacity: 0px;
+@keyframes rotate {
+    0% {
+        transform: translateY(200px);
+        opacity: 0px;
     }
-   
-    100%{
-      transform: translateY(0px);
-      opacity: 1;
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
     }
 }
 
-.img-circle{
+.img-circle {
     position: absolute;
     top: 15px;
     left: -55px;
     width: 200px;
-    height: 200px ;
+    height: 200px;
     border-radius: 200px;
     overflow: hidden;
 }
-.img-circle>img{
+
+.img-circle > img {
     width: 100%;
 }
 
-.resume-about{
-   
+.resume-about {
     width: 300px;
 }
-.bottom{
-    margin-top: 140px; 
+
+.bottom {
+    margin-top: 140px;
 }
-.btn-about{
+
+.btn-about {
     display: flex;
     justify-content: center;
     width: 130px;
@@ -55,8 +58,42 @@
     padding: 10px;
     background-color: rgb(201, 201, 21);
 }
-.weight{
+
+.weight {
     font-weight: 600;
     font-size: 12px;
     color: white;
+}
+
+/* Styles spécifiques pour les téléphones */
+@media (max-width: 767px) {
+    .circle-gbl {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .circle {
+        margin-top: 15px;
+        width: 100%;
+        height: auto;
+    }
+
+    .img-circle {
+        position: static;
+        margin-top: 15px;
+        width: 100%;
+        height: auto;
+    }
+
+    .resume-about {
+        width: 100%;
+    }
+
+    .bottom {
+        margin-top: 30px;
+    }
+
+    .btn-about {
+        width: 100%;
+    }
 }

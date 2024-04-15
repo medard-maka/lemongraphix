@@ -1,58 +1,93 @@
-.width-body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.title-back{
-    width: 100%;
-    height: 58%;
-     background-image: url(./photo/presentation.jpg);
-}
-.title-form{
+.width-body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 65px;
-    color: white;    
-}
-.body-form{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 450px;
-    height: 450px;
-    margin-top: 35px;
-    background-color: white;
-    box-shadow: 2px 2px  6px 2px;
-}
-.icon-form{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    margin-top: 10px;
-    background-color: aliceblue;
-    padding: 5px;
-}
-.icon-form>a{
-    color: black;
-}
- input{
-  padding: 4px;
-}
-select{
-    margin-top: 10px;
-}
-.submite-btn{
-    align-items: center;
-    border-radius: 15px;
-    background-color:rgb(201, 201, 21, .5);
-    margin: 10px;
-    padding: 5px;
-    
-}
-.letter:hover{
-    transition: 2s ease-in-out ;
-    letter-spacing: 4px;
-
-}
+  }
+  
+  .title-back {
+      width: 100%;
+      height: 58%;
+      background-image: url(./photo/presentation.jpg);
+      background-size: cover;
+      background-position: center;
+  }
+  
+  .title-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 65px;
+      color: white;
+  }
+  
+  .body-form {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 450px;
+      max-width: 90%;
+      height: auto;
+      margin-top: 35px;
+      background-color: white;
+      box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      box-sizing: border-box;
+  }
+  
+  .icon-form {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      margin-top: 10px;
+      background-color: aliceblue;
+      padding: 5px;
+  }
+  
+  .icon-form > a {
+      color: black;
+  }
+  
+  input {
+      padding: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      margin-top: 10px;
+  }
+  
+  select {
+      margin-top: 10px;
+      width: 100%;
+      box-sizing: border-box;
+  }
+  
+  .submite-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 15px;
+      background-color: rgba(201, 201, 21, 0.5);
+      margin: 10px;
+      padding: 5px;
+      width: 100%;
+      box-sizing: border-box;
+  }
+  
+  .letter:hover {
+      transition: 2s ease-in-out;
+      letter-spacing: 4px;
+  }
+  
+  /* Styles spécifiques pour les téléphones */
+  @media (max-width: 767px) {
+      .title-form {
+          margin-top: 40px;
+      }
+  
+      .body-form {
+          width: 90%;
+          max-width: none;
+          height: auto;
+          padding: 15px;
+      }
+  }
