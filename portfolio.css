@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+background-color: rgb(201, 201, 21, .5);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.bouton {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.bouton a{
+    color: white;
+}
+.blocright{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.personal{
+    width: 150px;
+    height:150px;
+    overflow: hidden;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+.personal>img{
+    width: 100%;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.cotenue-des{
+    padding: 10px 30px;
+}
+.RX{
+    display: flex;
+    gap: 20px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.icones{
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 10px;
+}
+.bloc-parent-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.parent-left{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.semiparent{
+    position: relative;
+    box-shadow: 1px 1px 10px 0.6px;
+    scale: 1.1;
+}
+.cotente-image{
+    width: 250px;
+    height: 250px;
+}
+.cotente-image>img{
+    width: 100%;
+}
+.supp{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 55px;
+    left: -115px;
+    box-shadow: 1px 1px 10px 0.6px;
+}
+.supp>img{
+    width: 100%;
+}
+.bier-img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 55px;
+    left:210px ;
+    box-shadow: 1px 1px 10px 0.6px;
+}
+.bier-img>img{
+   width: 100%;
+}
+.btw{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    border-radius: 15px;
+}
+.mere-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    align-items: center;
+}
+.top-to-flex{
+    display: flex;
+    gap: 5px;
+}
+.demo{
+    font-size: 11px;
+}
+.profil-top{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    overflow:hidden;
+}
+.profil-top>img{
+    width: 100%;
+}
+.pub{
+    margin: 5px 50px;
+    width: 500px;
+   
+}
+.pubs-reel{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.pubs-reel>img{
+    width: 100%;
+}
+.gbl-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-left{
+    display: flex;
+    gap: 5px;
+}
